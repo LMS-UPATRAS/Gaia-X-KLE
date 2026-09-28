@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/v2/context/2411"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-KLE",
+  "issuanceDate": "2026-09-25T09:08:27Z",
+  "validFrom": "2026-09-25T09:08:27Z",
+  "verificationMethod": [
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lms-upatras.github.io:Gaia-X-KLE",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "ooX7nI0iDIAwpuP5udXvJI5YkB__gKzSVtVgKsSBZ6Or7vxiXndx0s5e315N41OiviZmOb3brdUTGXAttEp0mfeEALRCV-I3pT-x8K9kZ06RWt26oarxclq1DhQI21zeOcRbV7a-QT4VPHb3JSMhTqvJM2Ka6lY3GAyvlKR1G4yA1cxzlFCFU3MVEL3UFvtmDKj4VkQM1NwMs4JfOPfIlVWhwJscVflE3c7YICe_zn7HiYYYvC91CC4PjUsr2ON6w6SvNol-2u6P_2nTXw-zDLujKYq1Rg51VibOT1_Sqwz864GbsnkPr7-YxIXMiCSMfN6jv7Vgt_IE9sgeoXCBJ--AJqJTsnQwIQPU5aP4OMc9XCNzAxYE31-v3FKur3maAZHD-EN7xOK7lN8aKQTb_4LDhnm6JNpZFuTZITrfXia4jrSXau4r32xGn3WSnom09jTSqLrb4JRXbLF0k-xdsIWU0ec-fxpXF0NAWgI136fr1KEZ9HCZ4S5adJy_OIH6WYLKX74s8XlVsdZwUSysPlWPiyZzRADe0qWGiGOUjXPb7-uAULlJ7NADa7qkdNhupW74QdzqoYUTvOTDz1AphCCNFXjHeDcpZFP23O1MqgeHS50ml12YdTR9Bx4wdEdQNlcgLC10dWEKpCxoMMaO1DAQa2WIo-siaDoQK3yMmZ0",
+        "e": "AQAB",
+        "alg": "PS256",
+        "x5c": [
+          "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"
+        ],
+        "x5u": "https://lms-upatras.github.io/Gaia-X-KLE/x509Certificate.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:lms-upatras.github.io:Gaia-X-KLE#key-1"
+  ],
+  "authentication": [
+    "did:web:lms-upatras.github.io:Gaia-X-KLE#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#discovery",
+      "type": "GaiaXSelfDescription",
+      "serviceEndpoint": "https://lms-upatras.github.io/Gaia-X-KLE/self-description.json"
+    }
+  ]
+}

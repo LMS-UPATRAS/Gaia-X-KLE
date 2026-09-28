@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/gaia-x/2411#",
+    {
+      "vcard": "https://www.w3.org/2006/vcard/ns#",
+      "gx": "https://w3id.org/gaia-x/2411#"
+    }
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#address-vc",
+  "type": [
+    "VerifiableCredential",
+    "gx:Address"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "validFrom": "2026-09-25T09:08:28Z",
+  "credentialStatus": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#status-list",
+    "type": "BitstringStatusList2023"
+  },
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#address",
+    "type": "gx:Address",
+    "gx:region": "EL52",
+    "vcard:street-address": "Industrial Area of Stavrochori",
+    "vcard:postal-code": "61100",
+    "vcard:locality": "Kilkis",
+    "gx:countryCode": "GR"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-09-25T09:08:28Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..MgV38jlpeNB2KaXY-BkNFqKL6yWmcH1nfoajqmcv4Z7HgaKKtRI_EfOPpg3GuJxj1RQ131mk5CCXRKc6v_jGt7_sn2uJS2gyd7GqSeFSSKFvpf-nSmS6He6--LUgwMMJxHI6ofSeZewcdrQcd-PP46ydAzoRuuXHIQE_5T1qvn9EklaJ0PEqqlWzx_quxqOje5Id-lWaiPbFLsXiq6M71hI8fgxPmDaHlrkAYxuc2SSNZzBIpLoqZfhLcNCoqaXaEQQbS7WoltCi3q83iWla4PEBSCpXt_I9QJL_3kd7awsmKZgU8-g2nHoBjZl7TZcCp_oeEOIcXFLkCX9RItXYAzxGDFkFdpeg_UXDNFeS6YRUFPeYFuZKZ3fm3BDlCXDPnciMeUVS2qMIeYC_-AqvFy5DFsGqXqCfgGehWwH7O74sGHjospVEH38n2o2tc7uZqP5UH8ZsPjNVp41MOAbWnwfBsQeRFEsQktKLDhSgGsIQtb6ewczumVsCCQQB2kVaDl0RjPHH3X4cM7UClXFovUVHLWYvP38yzwWGyViaXAv-_1kgp34MU7hGje9GTUUf6tpxexyPr1oFxfFB-aEcW6rDXZsngxo2iKJ415UTTmXs6NWDvNYOqfXDGNWhn1CTnjpN5jTglqTpQ_HUlMkFz4VfDVYGM1UGRV1CUHbN9zM"
+  }
+}
