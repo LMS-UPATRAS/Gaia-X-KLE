@@ -5,8 +5,8 @@
     "https://registry.lab.gaia-x.eu/v2/context/2411"
   ],
   "id": "did:web:lms-upatras.github.io:Gaia-X-KLE",
-  "issuanceDate": "2026-09-28T08:12:35Z",
-  "validFrom": "2026-09-28T08:12:35Z",
+  "issuanceDate": "2026-09-29T10:30:39Z",
+  "validFrom": "2026-09-29T10:30:39Z",
   "verificationMethod": [
     {
       "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#key-1",
@@ -18,7 +18,7 @@
         "e": "AQAB",
         "alg": "PS256",
         "x5c": [
-          "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"
+          "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"
         ],
         "x5u": "https://lms-upatras.github.io/Gaia-X-KLE/x509Certificate.pem"
       }
@@ -35,6 +35,16 @@
       "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#discovery",
       "type": "GaiaXSelfDescription",
       "serviceEndpoint": "https://lms-upatras.github.io/Gaia-X-KLE/self-description.json"
+    },
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#credential-service",
+      "type": "CredentialService",
+      "serviceEndpoint": "http://150.140.148.216:14151/api/credentials/v1/participants/ZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLUtMRQ=="
+    },
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-KLE#protocol-endpoint",
+      "type": "ConnectorProtocolEndpoint",
+      "serviceEndpoint": "https://gaia-x-connector-kle.teachingfactory-cc.eu/protocol/api/protocol/2025-1"
     }
   ]
 }
